@@ -22,6 +22,7 @@ const markup = galleryItems
   
 galleryConteiner.insertAdjacentHTML('beforeend', markup);
 
+
 galleryConteiner.addEventListener('click', onClick);
 function onClick(event) {
   event.preventDefault();
