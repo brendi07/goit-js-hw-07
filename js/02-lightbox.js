@@ -15,7 +15,7 @@ const markup = galleryItems.map(
 ).join('');
 
 gallery.insertAdjacentHTML('beforeend', markup);
-gallery = new SimpleLightbox(".gallery a", {
+const gallery = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
 })
